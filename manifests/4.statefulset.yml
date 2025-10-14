@@ -22,8 +22,6 @@ spec:
         volumeMounts:
         - name: www
           mountPath: /usr/share/nginx/html
-      imagePullSecrets:
-            - name: mysecret
   volumeClaimTemplates:
   - metadata:
       name: www
