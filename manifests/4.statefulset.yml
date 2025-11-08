@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: kiranreddy678/kops:db-bb
+        image: kiranreddy678/bbrepo:latest
         ports:
         - containerPort: 80
           name: web
