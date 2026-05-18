@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: kiranreddy678/bbrepo:dblatest
+        image: kiranreddy678/blood-bank:dbimage
         ports:
         - containerPort: 80
           name: web
